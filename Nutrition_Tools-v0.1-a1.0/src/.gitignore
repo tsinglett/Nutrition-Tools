@@ -1,0 +1,26 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Dependencies
+# /env/lib/python3.9/site-packages/
+.env
+
+# Ignore program output files
+*.log
+*.yaml
+
+# Ignore files with API keys
+src/set_api_key.py
+
+# OS generated files
+.DS_Store
+Thumbs.db

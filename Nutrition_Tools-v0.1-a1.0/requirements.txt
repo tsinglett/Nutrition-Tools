@@ -1,0 +1,23 @@
+# To install the libraries required to run Nutrition Tools, run the following command:
+# pip install -r requirements.txt
+
+# You will also need to register for a USDA FoodData Central API key,
+# Please read README.md for more information.
+
+# Requests library for making API calls
+requests==2.28.1
+
+# PyYAML library for exporting data in YAML format
+PyYAML==6.0
+
+# FuzzyWuzzy library for fuzzy matching
+fuzzywuzzy==0.18.0
+
+# Python-Levenshtein for improving FuzzyWuzzy performance
+python-Levenshtein==0.20.9
+
+# Pint library for unit conversions
+pint==0.20.1
+
+# Ratelimit library for API rate limiting
+ratelimit==2.2.1
